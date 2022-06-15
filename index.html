@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google APTs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script>
+        document.addEventListener("load", () => {
+            document.querySelector("body").style.filter = "blur(1)"
+        })
+    </script>
+
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/anim.css">
+    <link rel="stylesheet" href="style/pic.css">
+    <link rel="stylesheet" href="style/preloader.css">
+
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        $(window).load(function () {
+            $(".showbox").delay(5000).fadeOut("slow");
+            $(".loader").delay(5000).fadeOut("slow");
+        })
+    </script>
+</head>
+
+<body>
+    <hr id="stop" style="border: none;">
+
+
+    <!-- Preloader -->
+    <div class="showbox">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container d-flex">
+
+            <div class="logo" id="logo">
+                <a href=""><img src="logo.png" alt="logo"></a>
+                <a href="">
+                    <h1>GMHPHCI<small class="ore">'</small> 2022</h1>
+                </a>
+            </div>
+
+            <div class="menu hide">
+                <i class="fa fa-times menu-o" id="close-btn"></i>
+                <ul>
+                    <li class="active link"><a href="#stop">home</a></li>
+                    <li class="link"><a href="#contents">about</a></li>
+                    <li class="link"><a href="#committee">committee</a></li>
+                    <li class="link"><a href="#important-date">program</a></li>
+                    <li class="link"><a href="#venue">venue</a></li>
+                    <li class="link"><a href="#contact">contact</a></li>
+                    <li class="link"><a href="#talk">talks</a></li>
+                    <li class="link"><a href="#">downloads</a></li>
+                    <li><a href="#" class="neon-btn">registrations</a></li>
+                </ul>
+            </div>
+
+
+            <i class="fa fa-bars ore menu-bar menu-o" id="open-btn"></i>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header area" id="header">
+        <div class="header_bg">
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="container">
+            <p class="p-1">
+                International Conference on global health challenges & innovation
+            </p>
+            <section class="mt-2">
+                <img src="logo.png" alt="logo">
+                <h1 class="">GMHPHCI' 2022</h1>
+            </section>
+            <p class="p-2 mt-2">
+                <!-- (Via Online/Offline mode) <br> -->
+                25TH-27TH NOV’ 2022
+            </p>
+            <section class="mt-2">
+                <small>Organised by</small>
+
+                <p class="mt-2 p-3">
+                    IIIT Ranchi
+                    in collab with
+                    National Association of Mental Health and Allied Health (NAMAH), Foundation
+                    <br>
+                    <small>Ranchi, Jharkhand – 834004, India</small>
+                </p>
+            </section>
+        </div>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div id="contents">
+        <div class="container">
+            <div class="about-ranchi">
+                <article class="box-shadow">
+                    <h1 class="article-heading">About Ranchi</h1>
+                    <hr class="bg-ore underline">
+                    <p>Ranchi, capital of Jharkhand also known as City of Waterfalls is the home to not only many
+                        waterfall but it is known for its scenic beauty and temples and unexplored beauty. Few of the
+                        famous of waterfalls and locations of Ranchi includes Panch Gagh Falls, Dasham Falls, Hundru
+                        Falls, Jonha Falls, Hirni Falls, Sita Falls, Jagannath Temple, Rock Garden, Kanke Dam, Sun
+                        Temple, Tagore Hill,
+                        Pahari Mandir, Patratu Valley, Birsa Zoological Park and many more.
+                    </p>
+                </article>
+            </div>
+
+            <div class="about-institute ">
+                <article class="box-shadow">
+                    <h1 class="article-heading">About the Institute</h1>
+                    <hr class="bg-ore underline">
+                    <p>IIIT Ranchi is an Institute of National Importance under the act of Parliament of India
+                        established in 2016. The major objective was to set up a model of education which can produce
+                        best- in-class human resources in IT and harnessing the multidimensional facets of information
+                        technology in various domains.
+                        The Institute is currently offering B. Tech (Hons.) degree in Computer Science and Engineering
+                        (CSE) and Electronics and Communication Engineering (ECE) as well as B.Tech CSE with
+                        specialization in Data Science and Artificial Intelligence and B.Tech ECE with specialization in
+                        Embedded Systems and IOT. The institute also offers M. Tech in Data Science and Artificial
+                        Intelligence and
+                        M. Tech in Embedded Systems and IOT as well as Ph. D programs.
+                    </p>
+                </article>
+            </div>
+
+            <div class="about-NAMAH ">
+                <article class="box-shadow">
+                    <h1 class="article-heading">About NAMAH Foundation</h1>
+                    <hr class="bg-ore underline">
+                    <p>NAMAH Foundation is registered under Trust Act. It works with communities to raise mental health
+                        awareness, enable early detection of mental illnesses and to aid, assist, provide, and offer
+                        comprehensive care and professional counselling services, as well as high-quality mental health
+                        services, in order to promote and improve overall well-being. Their mission is to provide
+                        counselling services to children, adolescents, adults, couples, families, and senior citizens
+                        from various socioeconomic backgrounds.
+                    </p>
+                </article>
+            </div>
+
+            <div class="about-conf">
+                <article class="box-shadow">
+                    <h1 class="article-heading">About the Conference</h1>
+                    <hr class="bg-ore underline">
+                    <p>Mental health issues negatively impacts millions of people's life globally. Mental health is an
+                        important issue with many challenges in investigation, diagnosis, treatment, monitoring, drug of
+                        choice, and side effects. Public health is the science and art of preventing disease, prolonging
+                        life and promoting health through the organized efforts and informed choices of society,
+                        organizations, public and private, communities and individuals. Modern technologies like the
+                        Internet of Things (IOT), Artificial Intelligence (Al), Machine Learning (ML), and Deep Learning
+                        (DL), among others, could help to solve problems in the domain of mental health and public
+                        health. GMHPHCl'2022 aims to bring together researchers, leading scientists, psychiatrist,
+                        psychologist, doctors, statisticians, and healthcare workers to share knowledge, present their
+                        novel ideas, and discuss the challenges and present novel solutions in the field of healthcare.
+                        The conference also strives to provide an opportunity for young researchers, academicians, and
+                        practitioners with multidisciplinary interests to meet and interact with members across a range
+                        of disciplines.
+                    </p>
+
+                    <div class="conf-committee">
+                        <div>
+                            <h2 class="sub-heading">Chief Patron</h2>
+                            <p><b>-</b>&nbsp;Prof. Vishnu Priye, Director, IIIT Ranchi
+                            </p>
+                        </div>
+                        <div>
+                            <h2 class="sub-heading">Patron</h2>
+                            <p><b>-</b>&nbsp;Dr Updesh Kumar, Former Head of Mental health and Counseling
+                                Division of Defense Institute of Psychological Research, DRDO
+                            </p>
+                        </div>
+                        <div>
+                            <h2 class="sub-heading">Convenor</h2>
+                            <p><b>-</b>&nbsp;Dr. R K Pradhan, Associate Professor, IIT
+                                Kharagpur</p>
+                        </div>
+                        <div>
+                            <h2 class="sub-heading">Co-Convenor</h2>
+                            <p><b>-</b>&nbsp;Dr. Jayadeep Pati, Assistant Professor, IIIT
+                                Ranchi
+                            </p>
+                            <h2 class="sub-heading mt-2">Secretary
+                            </h2>
+                            <p><b>-</b>&nbsp;Dr. Shalini Mahato, IIIT Ranchi
+                                <br>
+                                <b>-</b>&nbsp;Dr. Bam Bahadur Sinha, IIIT Ranchi
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+
+        <div class="sec-2">
+            <div class="committee" id="committee">
+                <div class="container">
+                    <aside class="">
+                        <h1 class="article-heading">Program Committee</h1>
+                        <hr class="bg-ore underline">
+                        <div class="list">
+                            <div class="group box-shadow">
+                                <div class="pic pic1"></div>
+                                <p><b>Dr. Kalman J. Kaplan</b>
+                                    <br>
+                                    Professor, University of
+                                    Illinois, Chicago, USA
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic2"></div>
+                                <p><b>Dr. Ashok Saha</b>
+                                    <br>
+                                    Professor, Jagannath University, Dhaka, Bangladesh
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic3"></div>
+                                <p><b>Dinie Ratri Desiningrum</b>
+                                    <br>
+                                    Faculty of Psychology,
+                                    Diponegoro University, Indonesia
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic4"></div>
+                                <p><b>Dr. Sandeep Kumar</b>
+                                    <br>
+                                    Professor, Banaras
+                                    Hindu University (BHU), India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic5"></div>
+                                <p><b>Dr SPK Jena</b>
+                                    <br>
+                                    Professor, Delhi, University, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic6"></div>
+                                <p><b>Dr. Rabindra Kumar Pradhan</b>
+                                    <br>
+                                    Associate Professor, IIT Kharagpur, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic7"></div>
+                                <p><b>Dr Dinakaran</b>
+                                    <br>
+                                    Assistant Professor,
+                                    NIMHANS
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic8"></div>
+                                <p><b>Dr Suvashisa Rana</b>
+                                    <br>
+                                    Assistant Professor, School of Medical Sciences, University
+                                    of
+                                    Hyderabad, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic9"></div>
+                                <p><b>Dr Sandhyarani Mohanty</b>
+                                    <br>
+                                    Research Officer, Institute of Mental Health and
+                                    Hospital, Agra, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic10"></div>
+                                <p><b>Dr Cesar Merino Soto</b>
+                                    <br>
+                                    Professor, University of
+                                    San Martin, Lima, Peru
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic11"></div>
+                                <p><b>Dr. Patryk Stecz</b>
+                                    <br>
+                                    Associate. Professor,
+                                    University of Lodz, Poland
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic12"></div>
+                                <p><b>Dr. Narendra Thaguna</b>
+                                    <br>
+                                    Mental Health
+                                    Professional, Nepal
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic13"></div>
+                                <p><b>Dr V K Singh</b>
+                                    <br>
+                                    Professor, Narayana Medical College and Hospital, Rohtas, Bihar,
+                                    India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic14"></div>
+                                <p><b>Dr. Rasmita Das Swain</b>
+                                    <br>
+                                    Professor, NIEPA, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic15"></div>
+                                <p><b>Dr Nilesh Thakre</b>
+                                    <br>
+                                    Associate Professor, SNDT
+                                    Women's University, Mumbai, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic16"></div>
+                                <p><b>Dr. Pooja Garg</b>
+                                    <br>
+                                    Associate Professor, IIT,
+                                    Roorkee, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic17"></div>
+                                <p><b>Dr Abhay Kumar</b>
+                                    <br>
+                                    Assistant Professor,
+                                    ANMCH, Gaya, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic18"></div>
+                                <p><b>Dr Sumatra Mishra</b>
+                                    <br>
+                                    Clinical Psychologist, IMHA, Agra, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic19"></div>
+                                <p><b>Dr Sandhya Verma</b>
+                                    <br>
+                                    Clinical Psychologist, DIPR,
+                                    Delhi, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic20"></div>
+                                <p><b>Dr. Reuven Gal</b>
+                                    <br>
+                                    Senior Research Fellow, Samuel Neaman Institute, Israel
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic21"></div>
+                                <p><b>Dr. Katarina Millova</b>
+                                    <br>
+                                    Associate. Professor,
+                                    University of Ostrava, Czech Republic
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic22"></div>
+                                <p><b>Dr Conrad Zygmont</b>
+                                    <br>
+                                    University Lecturer,
+                                    Helderberg College of Higher Education, Africa
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic23"></div>
+                                <p><b>Dr. Pooja Purang</b>
+                                    <br>
+                                    Professor, IIT Mumbai, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic24"></div>
+                                <p><b>Prof S K Sia</b>
+                                    <br>
+                                    Professor, Central University of Pondicherry, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic25"></div>
+                                <p><b>Dr. Nishant Goyal</b>
+                                    <br>
+                                    Associate Professor ,
+                                    CIP, Ranchi
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic26"></div>
+                                <p><b>Dr. Ajoy Goyal</b>
+                                    <br>
+                                    Assistant Professor,
+                                    NIMHANS, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic27"></div>
+                                <p><b>Dr. Ajoy Goyal</b>
+                                    <br>
+                                    Assistant Professor,
+                                    NIMHANS, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic28"></div>
+                                <p><b>Dr. Bam Bahadur Sinha</b>
+                                    <br>
+                                    Assistant Professor,
+                                    IIIT Ranchi, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic29"></div>
+                                <p><b>Dr. Shalini Mahato</b>
+                                    <br>
+                                    Faculty, IIIT Ranchi, India
+                                </p>
+                            </div>
+                            <div class="group box-shadow">
+                                <div class="pic pic30"></div>
+                                <p><b>Ms.Hrit Kaushik</b>
+                                    <br>
+                                    Consultant, NAMAH Foundation,
+                                    India
+                                </p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <hr id="talk" class="v-h">
+            <div class="topic_of_int">
+                <div class="container">
+                    <article class="box-shadow">
+                        <h1 class="article-heading">Topic of Interest</h1>
+                        <hr class="bg-ore underline">
+                        <p>GMHPHCl'2022 aims to examine some recent developments in the interaction between emerging
+                            technologies addressing mental health issues and innovations. The conference will focus on
+                            finding relevant applications of different tools and techniques for diagnosing, and
+                            analysing the challenges of global health. Topics
+
+                            of interest for submission include, but are not limited to:
+                        </p>
+                    </article>
+                    <div class="list">
+                        <div class="group box-shadow">
+                            <h2 class="sub-heading">Mental Health</h2>
+                            <ul>
+                                <li>Psychiatry, Neurology and Neurological Sciences</li>
+                                <li>Medical consultation</li>
+                                <li>Climate change and mental health</li>
+                                <li>Community mental health services</li>
+                                <li>Legal aspects of mental health service delivery</li>
+                                <li>Neurology and Neurological Sciences</li>
+                                <li>Tele/online mental health</li>
+                                <li>Women mental health</li>
+                                <li>Innovative mental health service delivery</li>
+                                <li>General Hospital psychiatry</li>
+                                <li>From Asylums to community-based care in psychiatry</li>
+                                <li>Biological markers in psychiatry</li>
+                                <li>Brain stimulation in psychiatry.</li>
+                                <li>Psychosocial aspects of mental health.</li>
+                                <li>Post-traumatic Stress Disorder(PTSD)</li>
+                                <li>Trauma management</li>
+                                <li>Psychological first aid</li>
+                            </ul>
+                        </div>
+                        <div class="d-grid">
+                            <div class="group box-shadow">
+                                <h2 class="sub-heading">Mental Health and Well-Being
+                                </h2>
+                                <ul>
+                                    <li>Workplace well being Happiness, Well-being and Resilience at work</li>
+                                    <li>Emotional issues in organization
+                                    </li>
+                                    <li>Organizational stress, health, well-being and neurosis</li>
+                                    <li>Public Health</li>
+                                    <li>Yoga and Mental Health</li>
+                                    <li>Couselling and Mental health</li>
+                                    <li>Suicide and Mental Health</li>
+                                    <li>Positive psychology and mental health</li>
+                                    <li>Stress, Burnout, and Wellbeing</li>
+                                    <li>Workplace Balance and Employee Well-being Spirituality and Wellbeing</li>
+                                    <li>Indigenous health practices and Mental Wellbeing</li>
+                                </ul>
+                            </div>
+                            <div class="group box-shadow">
+                                <h2 class="sub-heading">Public Health Challenges</h2>
+                                <ul>
+                                    <li>Disparities in Healthcare Access and Outcomes</li>
+                                    <li>Public health and vulnerable communities</li>
+                                    <li>Access to Quality Health Care</li>
+                                    <li>Rural health care
+                                    </li>
+                                    <li>Social Isolation
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="group box-shadow">
+                            <h2 class="sub-heading">Health care and Artificial Intelligence</h2>
+                            <ul>
+                                <li>Machine learning for healthcare</li>
+                                <li>Diagnosis in medical imaging</li>
+                                <li>Deep learning for medical systems and applications
+                                </li>
+                                <li>Pattern recognition in biomedical applications Machine Learning in Bioinformatics
+                                </li>
+                                <li>Outbreak Prediction</li>
+                                <li>Advanced medical image retrieval and reconstruction</li>
+                                <li>Big Data Analytics</li>
+                                <li>Smart Health Records</li>
+                                <li>Healthcare IOT</li>
+                                <li>Integration of E-Health and IOT</li>
+                                <li>Advanced molecular/pathologic image analysis</li>
+                                <li>Multimodal neurochemical and/or imaging biomarkers</li>
+                                <li>Medicine recommendation using Chatbot</li>
+                                <li>Markov decision processes for clinical decision support</li>
+                                <li>Medical Imaging Diagnosis</li>
+                                <li>Gait and motion analysis using complex biomedical
+                                    signals
+                                </li>
+                                <li>Big data in health care</li>
+                                <li>Learning with non-stationary data</li>
+                                <li>Complex medical data and data analysis Crowd sourced medical</li>
+                                <li>data collection</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="registration">
+                <div class="container">
+                    <h1 class="article-heading">REGISTRATION</h1>
+                    <hr class="bg-ore underline">
+                    <div>
+                        <section class="box-shadow">
+                            <h2 class="sub-heading">Registration Fee</h2>
+                            <table class="table-1">
+                                <tr>
+                                    <td><b>Category</b></td>
+                                    <td><b>Indian Delegates</b></td>
+                                    <td><b>Foreign Delegates</b></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Student</b></td>
+                                    <td>INR 2500</td>
+                                    <td>USD 150</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Faculty</b></td>
+                                    <td>INR 3000</td>
+                                    <td>USD 209</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Industry</b></td>
+                                    <td>INR 5000</td>
+                                    <td>USD 250</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="pl-1"><b>Participation Only
+                                            (outside IIIT Ranchi Delegates)</b></td>
+                                    <td>INR 7000</td>
+                                    <td>USD 250</td>
+                                </tr>
+                            </table>
+                            <p class="note">
+                                <b>NOTE: Lodging and food in not included in the registration fees. It will be arranged
+                                    by 111T Ranchi on request basis Important Dates</b>
+                            </p>
+                        </section>
+                        <section class="box-shadow">
+                            <h2 class="sub-heading">Mode of Payment</h2>
+                            <p class="caption">All payments should be made through online electronic transfer in the
+                                account of conference with following detail:</p>
+                            <table>
+                                <tr>
+                                    <td><b>Beneficiary Name</b></td>
+                                    <td>NON FORMAL CONTINUING OF EDU</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Account No</b></td>
+                                    <td>10424975574</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Bank</b></td>
+                                    <td>SBI, IIIT Ranchi</td>
+                                </tr>
+                                <tr>
+                                    <td><b>IFSC</b></td>
+                                    <td>SBIN0002580</td>
+                                </tr>
+                                <tr>
+                                    <td><b>SWIFT</b></td>
+                                    <td>SBININBB</td>
+                                </tr>
+                            </table>
+                            <p class="note"><b>(please ensure to mention unique ID: 2022-23MED-05 in the transaction
+                                    remarks)</b></p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <hr id="important-date" class="v-h">
+            <div class="important-date">
+                <div class="container">
+                    <h1 class="article-heading">IMPORTANT DATES</h1>
+                    <hr class="bg-ore underline">
+                    <div class="list">
+                        <div class="group box-shadow">
+                            <i class="fa fa-calendar-o"></i>
+                            <h2 class="sub-heading">25th August’2022</h2>
+                            <p>Abstract Submission Deadline</p>
+                        </div>
+                        <div class="group box-shadow">
+                            <i class="fa fa-calendar-o"></i>
+                            <h2 class="sub-heading">30
+                                th August’2022
+                            </h2>
+                            <p>Abstract Acceptance Notification</p>
+                        </div>
+                        <div class="group box-shadow">
+                            <i class="fa fa-calendar-o"></i>
+                            <h2 class="sub-heading">16th September' 2022</h2>
+                            <p>Full Paper Submission Deadline</p>
+                        </div>
+                        <div class="group box-shadow">
+                            <i class="fa fa-calendar-o"></i>
+                            <h2 class="sub-heading">10
+                                th November’2022
+                            </h2>
+                            <p>Acceptance Notification</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="awards">
+                <div class="container box-shadow">
+                    <h1 class="article-heading">AWARDS</h1>
+                    <hr class="bg-ore underline">
+                    <ul>
+                        <li>Young Scientist Award</li>
+                        <li>3 Best Research Paper Award</li>
+                        <li>3 Best Poster Award</li>
+                        <li>Best Dissertation Award in PhD Level</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr id="contact" class="v-h">
+            <div class="contact">
+                <div class="container">
+                    <h1 class="article-heading">CONTACT US</h1>
+                    <hr class="bg-ore underline">
+                    <div class="ground">
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p><a href="tel:+91-7004778565">+91-7004778565</a></p>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p>
+                                <a href="mailto:shalinimahato@iiitranchi.ac.in">shalinimahato@iiitranchi.ac.in</a> <br>
+                                <a href="mailto:bahadurbam@iiitranchi.ac.in">bahadurbam@iiitranchi.ac.in</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proceeding">
+                <div class="container box-shadow">
+                    <h1 class="article-heading">PROCEEDINGS</h1>
+                    <hr class="bg-ore underline">
+                    <p>All the accepted abstract/paper would be presented in the conference and all accepted papers
+                        would be published in ELSEVIER / SPRINGER (Confirmation awaited)</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer>
+        <div class="container">
+            <section class="sec_1">
+                <h1>GMHPHCI<small class="ore">'</small> 2022</h1>
+                <small class="mt-2">
+                    Indian Institute of Information Technology Ranchi, Jharkhand, India
+                    in collaborations with
+                    National Association of Mental Health and Allied Health (NAMAH), Foundation.
+                </small>
+
+                <p id="venue"><b><b>VENUE</b> -</b>&nbsp;Auditorium, IIIT Ranchi, Smart City
+                    JUPMI Building, 3rd Floor, Plant Plaza Road, Dhurwa, Ranchi, Jharkhand – 834004, India</p>
+                <div class="social-handles">
+                    <p>
+                        <b>Email : </b> <a href="">&nbsp;gmhphci2022@iiitr.ac.in</a>
+                    </p>
+                        <!-- <h2>social media handles</h2> -->
+                    <ul class="">
+                        <li><a href="" class="fa fa-twitter"></a></li>
+                        <i class=""></i>
+                        <li><a href="" class="fa fa fa-instagram"></a></li>
+                        <li><a href="" class="fa fa fa-youtube"></a></li>
+                        <li><a href="" class="fa fa fa-facebook"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec_2">
+                <div>
+                    <header class="ore"><b>Usefull Links</b></header>
+                    <ul>
+                        <li>
+                            <h1>-</h1><a href="#">Home</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="#contents">About Us</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="">Call for pappers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <header class="ore"><b>Team</b></header>
+                    <ul>
+                        <li>
+                            <h1>-</h1><a href="#committee">Committee</a>
+                        </li>
+                        <li>
+                            <h1>-</h1><a href="">Web Team</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+        </div>
+    </footer>
+    <div class="extra-footer">
+        <div class="container">
+            <p>
+                &copy; GMHPHCI All Rights Reserved
+            </p>
+            <small>Developed By <a href="" class="ore">Web Team, GMHPHCI</a></small>
+
+            <button id="backtotop"><i class="text-light fa fa-chevron-up"></i></button>
+        </div>
+    </div>
+
+    <div class="social_handles">
+        <ul class="">
+            <li><a href="" class="fa fa-twitter"></a></li>
+            <li><a href="mailto:bahadurbam@iiitranchi.ac.in" class="fa fa fa-envelope"></a></li>
+            <li><a href="" class="fa fa fa-youtube"></a></li>
+            <li><a href="" class="fa fa fa-facebook"></a></li>
+        </ul>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
