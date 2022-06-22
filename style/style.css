@@ -7,7 +7,10 @@ except ---
                 div:first-child, div:nth-child(), div:nth-child() { background: url(...); }
 
 (Please Do not try to edit any other codes )
+*/
 
+/*  for purpose of searching class and id 
+accordion_headers
 */
 * {
   -webkit-box-sizing: border-box;
@@ -1291,6 +1294,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+
 }
 
 .committee > .container > .ground .accordion .accordion_headers li {
