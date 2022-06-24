@@ -11,7 +11,9 @@ except ---
 
 /*  for purpose of searching class and id 
 accordion_headers
+about
 mt-2
+@media
 p-3
 */
 * {
@@ -1810,3 +1812,34 @@ footer .container .sec_2 {
   color: royalblue;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* ----------------------------- css updatated by sahil   --------------  */
+.about{
+  display: block;
+}
+
+.about .about-uni{
+  display:grid;
+  margin: auto 0px;
+  margin-top:5px;
+  grid-template-rows: 1fr ;
+  grid-template-columns: 1fr 4fr;
+  background: none;
+}
+
+.about .uni-img img{
+  width:160px;
+  margin:0px 0px;
+  margin-top: 60px;
+  padding: 0px 0px;
+}
+
+@media screen and (max-width: 1000px){
+  /* .about .about-uni{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr;
+    background: none;
+  } */
+}
+/* -------------------------------------------------------------- */
