@@ -17,18 +17,6 @@ mt-2
 p-3
 */
 /* my code */
-.parent {
-  /* border: 1px solid black; */
-  margin: 1rem;
-  padding: 2rem 2rem;
-  text-align: center;
-}
-.child {
-  display: inline-block;
-  /* border: 1px solid red; */
-  padding: 1rem 1rem;
-  vertical-align: middle;
-}
 
 
 /* end of my code */
@@ -1829,33 +1817,24 @@ footer .container .sec_2 {
 }
 /*# sourceMappingURL=style.css.map */
 
-/* ----------------------------- css updatated by sahil   --------------  */
+/* ----------------------------- css updatated by sahil parent   --------------  */
 .about{
   display: block;
 }
 
-.about .about-uni{
-  display:grid;
-  margin: auto 0px;
-  margin-top:5px;
-  grid-template-rows: 1fr ;
-  grid-template-columns: 1fr 4fr;
-  background: none;
+.parent {
+  display : grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  
+}
+.child {
+  display: inline-block;
+  
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
 
-.about .uni-img img{
-  width:160px;
-  margin:0px 0px;
-  margin-top: 60px;
-  padding: 0px 0px;
-}
-
-@media screen and (max-width: 1000px){
-  /* .about .about-uni{
-    display:grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 2fr;
-    background: none;
-  } */
-}
 /* -------------------------------------------------------------- */
