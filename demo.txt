@@ -5,4 +5,8 @@ Assistant Professor,
 Faculty, 
 line 690 style.css 
 
+<<<<<<< HEAD
 Hello I'm Nikhilendra
+=======
+i am removing your data
+>>>>>>> 21ca00af82e006b4f42e32a14a61babcebf78982
