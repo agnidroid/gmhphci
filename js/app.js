@@ -226,7 +226,7 @@ function a_c_carasoul(active, t_elt, auto_c_t, ...clickableBtn) {
 // Header BG Carasoul
 (function () {
   let slides = document.querySelectorAll("#header .header_bg > div")
-  a_c_carasoul(document.querySelector("#header .header_bg"), slides, 10000)
+  // a_c_carasoul(document.querySelector("#header .header_bg"), slides, 10000)
 })();
 
 
