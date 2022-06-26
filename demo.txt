@@ -4,5 +4,6 @@ hey
 Assistant Professor, 
 Faculty, 
 line 690 style.css 
+line 1092 style.css 
 
 i am removing your data

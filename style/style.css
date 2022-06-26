@@ -15,6 +15,7 @@ about
 mt-2
 @media
 p-3
+.contact_us .container > div form
 */
 /* my code */
 
@@ -1088,6 +1089,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
+  margin:0px 0px;
 }
 
 .contact_us .container > div form input,
@@ -1839,5 +1841,6 @@ footer .container .sec_2 {
   padding: 1rem 1rem;
   vertical-align: middle;
 }
+
 
 /* -------------------------------------------------------------- */
