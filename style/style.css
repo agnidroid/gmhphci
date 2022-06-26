@@ -214,7 +214,7 @@ body {
 }
 
 #navbar>.container div.logo img {
-  height: 75px;
+  height: 55px;
   -webkit-filter: drop-shadow(1px 4px 5px rgba(0, 0, 0, 0.6));
   /* border-radius: 50%; */
   filter: drop-shadow(1px 4px 5px rgba(0, 0, 0, 0.6));
