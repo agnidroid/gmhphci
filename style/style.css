@@ -1998,5 +1998,9 @@ footer .container .sec_2 {
   vertical-align: middle;
 }
 
-
+.shadow{
+  /* text-shadow: 3px 3px 3px #000000; */
+  /* border:2px solid black; */
+  -webkit-text-stroke: 1px black;
+}
 /* -------------------------------------------------------------- */
