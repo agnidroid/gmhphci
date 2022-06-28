@@ -570,7 +570,7 @@ body {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 1s ease;
   transition: opacity 1s ease;
 }
@@ -625,7 +625,7 @@ body {
   text-shadow: 0px 0px 5px black;
   margin: auto;
   font-family: 'Ubuntu';
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 #header .container .p-2 {
