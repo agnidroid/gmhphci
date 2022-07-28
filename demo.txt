@@ -210,11 +210,3 @@ Hello I'm Nikhilendra
 
 ////////////////////////////
 
-logistic
-organising 
-publication
-registration
-sponsorship
-technical program
-technical support
-website support
