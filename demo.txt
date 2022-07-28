@@ -72,7 +72,7 @@ Hello I'm Nikhilendra
                                         <li>
                                             <img src="Pic/new/dr_nidhi.jpeg">
                                             <p>
-                                                <b> Dr. Nidhi Khuswaha</b><br>
+                                                <b> Dr. Nidhi Kushwaha</b><br>
                                                 Faculty, IIIT Ranchi
                                             </p>
                                         </li>
