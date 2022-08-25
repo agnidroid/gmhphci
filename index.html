@@ -83,7 +83,7 @@
                         <li class="link"><a href="#committee">Committees</a></li>
                         <li class="link"><a href="#speaker">Speakers</a></li>
                         <!-- <li class="link"><a href="#talk">Topics</a></li> -->
-                        <li class="link"><a href="#sponsership">Sponsorship</a></li>
+                        <li class="link"onclick="gotosponsorshippage()"><a href="#sponsorshippage">Sponsorship</a></li>
 
                         <li class="dropdown">
                             <a>program <i class="fa fa-angle-down"></i></a>
@@ -339,7 +339,64 @@
                     </div>
                 </article>
             </div>
+        </div>
+        
+        <div id="sponsorshippage" class="container" style="display:none;">
+            <!-- Sponsorship-->
+            <div>
+                <article class="box-shadow">
+                    <h1 class="article-heading">Sponsorship</h1>
+                    <hr class="bg-ore underline">
+                    <p id="sponsorshipdatacopy">
+                    </p>
+                </article>
+            </div>
 
+            <!-- Sponsorship Packages -->
+            <div id="sponsorshippackages">
+                <article class="box-shadow"style="width:100%;margin: 30px 0px;">
+                    <h1 class="article-heading">Sponsorship Packages</h1>
+                    <hr class="bg-ore underline">
+                    <p>
+                        <div class="parent"style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            <div class="child">
+                                <h3>Platinum Sponsorship (Rs. 3 Lakh)</h3>
+                                <ul>
+                                    <li>Titled Sponsorship ( in associated with IIIT Ranchi)</li>
+                                    <li>Print online logo with IIIT Ranchi</li>
+                                    <li>Event landing page (prominent space )</li>
+                                    <li>Event landing page (prominent space )</li>
+                                    <li>Logo on Brochure colored front page</li>
+                                    <li>Logo on event ID’s</li>
+                                    <li>Branding with conference kit</li>
+                                    <li>Logo will be mentioned in all documents (booklet)<br>
+                                        (except in conference proceedings)</li>
+                                    <li>Logo will be included in all sort of advertisements</li>
+                                    <li>Will be given 4 stands</li>
+                                </ul>
+
+                            </div>
+                            <div class="child">
+                                <h3>Gold Sponsorship (Rs. 2 Lakh)</h3>
+                                <ul>
+                                    <li>Logo on Brochure colored back page</li>
+                                    <li>Logo will be present on website</li>
+                                    <li>Will be given 3 stands</li>
+                                </ul>
+                            </div>
+                            <div class="child">
+                                <h3>Silver Sponsorship (Rs. 1 lakh)</h3>
+                                <ul>
+                                    <li>Logo on brochure(back ones)</li>
+                                    <li>Logo will be present on website</li>
+                                    <li>Will be given 1 stand</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </p>
+                </article>
+            </div>
+            
         </div>
 
         <!-- Other Articles -->
@@ -659,11 +716,11 @@
 
                     <div class="ground box-shadow">
                         <!-- Editable  -->
-                        <div class="list">
+                        <div  id="sponsorshipdata" class="list">
                             <h2 class="">Sponsorship Opportunities</h2>
 
                             <p
-                                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin:0px;padding: 30px 0px;">
                                 GMHPHCI’2022 provides a variety of sponsorship options that enable small and big
                                 businesses and organizations to participate in one of the best conference
                                 which would led to exchange of idea in the field of mental health and innovation
