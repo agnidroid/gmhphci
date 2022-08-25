@@ -251,3 +251,29 @@ function a_c_carasoul(active, t_elt, auto_c_t, ...clickableBtn) {
 //   close_btn.addEventListener("click", closeMenu);
 //   menu_container.querySelector(".shadow").addEventListener("click", closeMenu);
 // })();
+
+//Sponsorship Page
+function gotosponsorshippage()
+{
+  let contentsofthepage=document.getElementById("contents");
+  for (let item of contentsofthepage.children) {
+      if(item.id!="sponsorshippage")
+      {
+        console.log(item.style.display);
+        item.style.display="none";
+      }
+      else
+      {
+        item.style.display="block";
+      }
+  }
+  
+}
+
+//Copies the sponsorship page from existing page
+(function () {
+  let sponsorshipdata=document.getElementById("sponsorshipdata").cloneNode(true);
+  let sponsorshipdatacopy=document.getElementById("sponsorshipdatacopy")
+  sponsorshipdatacopy.appendChild(sponsorshipdata);
+  sponsorshipdata.id="";
+})();
