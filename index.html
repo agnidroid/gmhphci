@@ -77,13 +77,13 @@
                     <!-- Menu close btn -->
                     <i class="fa fa-times menu-o" id="close-btn"></i>
 
-                    <ul class="">
-                        <li class="active link"><a href="">Home</a></li>
+                    <ul id="navlinks"class="">
+                        <li class="active link"><a href="#stop">Home</a></li>
                         <li class="link"><a href="#contents">About</a></li>
                         <li class="link"><a href="#committee">Committees</a></li>
                         <li class="link"><a href="#speaker">Speakers</a></li>
                         <!-- <li class="link"><a href="#talk">Topics</a></li> -->
-                        <li class="link"onclick="gotosponsorshippage()"><a href="#sponsorshippage">Sponsorship</a></li>
+                        <li id="sponsorredirect"class="link"onclick="gotosponsorshippage()"><a href="#sponsorshippage">Sponsorship</a></li>
 
                         <li class="dropdown">
                             <a>program <i class="fa fa-angle-down"></i></a>
@@ -96,7 +96,7 @@
                                     <!-- <li><a href="coming_soon.html" target="blank">Call for Symposium</a></li> -->
                                     <li><a href="pages/guidelines.html" target="blank">Guidelines for authors </a></li>
 
-                                    <li><a href="#important-date">Important Dates</a></li>
+                                    <li><a class="link"href="#important-date">Important Dates</a></li>
                                     
                                 </ul>
                             </div>
@@ -106,8 +106,8 @@
                             <a class="d-flex">contact <i class="fa fa-angle-down"></i></a>
                             <div class="d-menu box-shadow">
                                 <ul>
-                                    <li><a href="#contact_us">Contact Us</a></li>
-                                    <li><a href="#htru">How to Reach Us</a></li>
+                                    <li><a class="link" href="#contact_us">Contact Us</a></li>
+                                    <li><a class="link" href="#htru">How to Reach Us</a></li>
                                 </ul>
                             </div>
                         </li>
