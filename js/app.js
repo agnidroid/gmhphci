@@ -259,7 +259,6 @@ function gotosponsorshippage()
   for (let item of contentsofthepage.children) {
       if(item.id!="sponsorshippage")
       {
-        console.log(item.style.display);
         item.style.display="none";
       }
       else
@@ -267,7 +266,6 @@ function gotosponsorshippage()
         item.style.display="block";
       }
   }
-  
 }
 
 //Copies the sponsorship page from existing page
@@ -276,4 +274,38 @@ function gotosponsorshippage()
   let sponsorshipdatacopy=document.getElementById("sponsorshipdatacopy")
   sponsorshipdatacopy.appendChild(sponsorshipdata);
   sponsorshipdata.id="";
+})();
+
+
+//Handles the active links and context of this page using the "#navlinks .link selector"
+(function(){
+  let navlinks = document.querySelectorAll('#navlinks .link');
+  let active;
+  for(let item of navlinks)
+  {
+    if(item.classList.contains("active"))
+    {
+      active=item;
+    }
+    item.addEventListener("click",function(event){
+      active.classList.remove("active");
+      item.classList.add("active");
+      active=item;
+      if(item.id!="sponsorredirect")
+      {
+        let contentsofthepage=document.getElementById("contents");
+        for (let item of contentsofthepage.children) {
+            if(item.id!="sponsorshippage")
+            {
+              item.style.display="block";
+            }
+            else
+            {
+              item.style.display="none";
+            }
+        }
+      }
+      
+    })
+  }
 })();
