@@ -299,6 +299,12 @@ body {
   padding-left: .8rem;
   color: #181818;
 }
+#navbar>.container div.menu-container .container>ul>li.dropdown .d-menu{
+  display: none;
+}
+#navbar>.container div.menu-container .container>ul>li.dropdown.active-accordion .d-menu{
+  display: block;
+}
 
 #navbar>.container div.menu-container .container>ul>li.dropdown .d-menu ul>li.heading {
   display: none;
