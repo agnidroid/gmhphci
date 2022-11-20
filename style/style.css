@@ -2044,7 +2044,15 @@ footer .container .sec_2 {
   width: 100%;
   transform: translateX(100%);
 
-  animation: scrollrighttoleft 40s linear infinite;
+}
+
+#notif1{
+  
+  animation: scrollrighttoleft 35s linear infinite;
+}
+#notif2{
+  
+  animation: scrollrighttoleft 30s linear infinite;
 }
 
 @keyframes scrollrighttoleft {
